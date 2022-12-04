@@ -1,0 +1,215 @@
+/*IMPORTANT! 
+Every page (network, devops, automation, cloud..) have different class for main-body, main-title, links to easy manpulate with
+sections. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.pre-header {
+    background-color:#5503A6;
+    height: 90px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+}
+
+
+/************************************* MAIN - NAV **********************************/
+
+.main-nav .main-menu {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.main-nav .main-menu li {
+    display:inline-block;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main-nav .main-menu li a{
+
+    color:#250e2f;
+    /*text-transform: uppercase; */
+    font-size:large;
+}
+
+.main-nav img {
+  margin-top:5px;
+}
+
+
+/******************************************HOME -IMAGE - SECTION (central img on index.html)***********************************/
+
+
+.home-image-section {
+  background-image: url('../images/home-image.jpg');
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
+.home-image-section h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.home-image-section p {
+  color: #fff;
+
+}
+
+
+.main-cta-btn {
+  background-color: #4f33f1;
+  border: 1px solid #4f33f1;
+  padding: 10px;
+  color:#fff !important;
+  transition: 0.2s;
+  display: inline-block;
+
+}
+
+.main-ctn-btn:hover {
+  color: #4f33f1 !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+/*****************************MAIN - TITLE - YOUTUBE (cloud.html) ******************************/
+
+.main-title-cloud .cloud-title {
+
+  text-align: center;
+  padding-bottom: 20px;
+ 
+}
+
+.main-title-cloud  p {
+
+  text-align: center;
+}
+
+/****************************CSS FOR MAIN BODY (cloud.html)*****************************/
+
+.main-body-cloud {
+
+    background-color: #E4DFD9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(58, 0, 83);
+    list-style: none;
+
+}
+
+.main-body-cloud .cloud-links{
+    list-style: none;
+}
+
+.main-body-cloud li a {
+    color:darkviolet;
+
+}
+
+
+/**************************MAIN TITLE - HANDS-ON (2nd section of cloud.html) ******************************************/
+
+
+.main-title-hands .hands-title {
+
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+/*************************************AWS HANDS-ON -MAIN body (2nd section of cloud.html)*******************************/
+
+
+
+
+
+/***************************** SOLUTION ARHITECT - main title (solution arhitect.html)*********************/
+
+.main-body-sa {
+
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+}
+.main-title-sa .sa-title {
+
+  text-align: center;
+  padding-bottom: 5px;
+}
+.main-title-sa p {
+  
+  text-align: center;
+}
+
+
+.main-body-sa .sa-links li {
+
+  list-style: none;
+
+}
+
+/*******************************DEVOPS - main-title (devops.html)**************************/
+
+.main-body-devops {
+  list-style: none;
+}
+
+.main-body-devops .title-row h4 {  /*title above every row*/
+  
+  text-align: center;
+}
+
+.main-title-devops .devops-title {
+
+  text-align: center;
+  padding-bottom: 5px;
+}
+.main-title-devops p {
+  
+  text-align: center;
+}
+
+
+.main-body-devops .devops-links li {
+
+  list-style: none;
+  display:inline-block;
+
+}
+
+/*********************** AUTOMATION -------(docker, ci/cd ...) **********************/
+
+.main-body-automation {
+  list-style: none;
+}
+
+.main-title-automation .automation-title {
+
+  text-align: center;
+  padding-bottom: 5px;
+}
+.main-title-automation p {
+  
+  text-align: center;
+}
+
+
+.main-body-automation .automation-links li {
+
+  list-style: none;
+  display:inline-block;
+
+}
